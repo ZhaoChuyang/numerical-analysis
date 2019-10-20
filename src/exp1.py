@@ -14,7 +14,6 @@ def get_args():
 
 
 def calculate(mode, x0, n=10):
-
     f = lambda x: 2 * x ** 2 + x - 15
     seq = [x0]
 
@@ -35,7 +34,6 @@ def calculate(mode, x0, n=10):
 
 
 def output(mode, seq, k = 10, n = 10):
-
     answer = ''
 
     for i in [b for b in range(k) if k - b <= 10]:
