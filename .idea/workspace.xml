@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd6c5327-92aa-4dc9-861c-3b7c2af925ae" name="Default Changelist" comment="" />
+    <list default="true" id="dd6c5327-92aa-4dc9-861c-3b7c2af925ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exp2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/misc.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,36 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-765917234">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1081" />
+          <entry key="sh" value="61" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bash" value="61" />
+          <entry key="Python" value="1081" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="sh" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -56,7 +91,16 @@
         <entry file="file://$PROJECT_DIR$/bin/run_exp1.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/run_exp2.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -64,28 +108,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378">
+            <state relative-caret-position="78">
               <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1571549760868" expanded="true" signature="77:82" ph="..." />
                 <marker date="1571549760868" expanded="true" signature="368:373" ph="..." />
-                <marker date="1571549760868" expanded="true" signature="1176:1351" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exp2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1571553289694" expanded="true" signature="105:110" ph="..." />
+                <marker date="1571553289694" expanded="true" signature="479:932" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exp2.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/misc.py">
+        <entry file="file://$PROJECT_DIR$/src/utils/misc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <marker date="1571552950665" expanded="true" signature="31:36" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +159,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -112,8 +170,10 @@
         <option value="$PROJECT_DIR$/exp_2/main.py" />
         <option value="$PROJECT_DIR$/bin/run_exp1.sh" />
         <option value="$PROJECT_DIR$/src/exp1.py" />
-        <option value="$PROJECT_DIR$/src/exp2.py" />
         <option value="$PROJECT_DIR$/utils/misc.py" />
+        <option value="$PROJECT_DIR$/bin/run_exp2.sh" />
+        <option value="$PROJECT_DIR$/src/utils/misc.py" />
+        <option value="$PROJECT_DIR$/src/exp2.py" />
       </list>
     </option>
   </component>
@@ -128,6 +188,9 @@
     <option name="width" value="1280" />
     <option name="height" value="737" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -137,17 +200,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="Numerical Analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Numerical Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="numerical-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numerical-analysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Numerical Analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Numerical Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="numerical-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numerical-analysis" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Numerical Analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Numerical Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="numerical-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numerical-analysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -159,9 +222,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -248,7 +317,7 @@
     <frame x="0" y="23" width="1280" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,7 +331,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -298,16 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1571277173609" expanded="true" signature="126:205" ph="..." />
-            <marker date="1571277173609" expanded="true" signature="173:205" ph="..." />
-            <marker date="1571277173609" expanded="true" signature="232:233" ph="..." />
-            <marker date="1571277173609" expanded="true" signature="232:237" ph="..." />
-            <marker date="1571277173609" expanded="true" signature="971:1107" ph="..." />
-            <marker date="1571277173609" expanded="true" signature="1048:1107" ph="..." />
-            <marker date="1571277173609" expanded="true" signature="1135:2569" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -317,30 +376,48 @@
     <entry file="file://$PROJECT_DIR$/bin/run_exp1.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/run_exp2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exp1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
+        <state relative-caret-position="78">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <marker date="1571549760868" expanded="true" signature="77:82" ph="..." />
             <marker date="1571549760868" expanded="true" signature="368:373" ph="..." />
-            <marker date="1571549760868" expanded="true" signature="1176:1351" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/misc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1571552950665" expanded="true" signature="31:36" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exp2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/misc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="218">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1571553289694" expanded="true" signature="105:110" ph="..." />
+            <marker date="1571553289694" expanded="true" signature="479:932" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
