@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd6c5327-92aa-4dc9-861c-3b7c2af925ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run_exp2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run_exp2.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exp1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exp1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exp2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exp2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/misc.py" afterDir="false" />
-    </list>
+    <list default="true" id="dd6c5327-92aa-4dc9-861c-3b7c2af925ae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,25 +58,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2929" />
-          <entry key="sh" value="210" />
+          <entry key="py" value="2944" />
+          <entry key="sh" value="233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="210" />
-          <entry key="Python" value="2929" />
+          <entry key="Bash" value="233" />
+          <entry key="Python" value="2944" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="1" />
-          <entry key="sh" value="1" />
+          <entry key="sh" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="1" />
+          <entry key="Bash" value="2" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
@@ -91,63 +85,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/run_exp1.sh">
+        <entry file="file://$PROJECT_DIR$/src/utils/misc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/run_exp2.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="71" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exp1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-427">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="769">
+              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1571553589408" expanded="true" signature="77:82" ph="..." />
-                <marker date="1571553589408" expanded="true" signature="367:372" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exp2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1571559292830" expanded="true" signature="146:151" ph="..." />
-                <marker date="1571559292830" expanded="true" signature="607:2117" ph="..." />
+                <marker date="1571559625096" expanded="true" signature="55:60" ph="..." />
+                <marker date="1571559625096" expanded="true" signature="367:368" ph="..." />
+                <marker date="1571559625096" expanded="true" signature="367:372" ph="..." />
+                <marker date="1571559625096" expanded="true" signature="622:895" ph="..." />
+                <marker date="1571559625096" expanded="true" signature="934:939" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utils/misc.py">
+        <entry file="file://$PROJECT_DIR$/bin/run_exp3.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
-              <folding>
-                <marker date="1571559603472" expanded="true" signature="55:60" ph="..." />
-                <marker date="1571559603472" expanded="true" signature="367:368" ph="..." />
-                <marker date="1571559603472" expanded="true" signature="367:372" ph="..." />
-                <marker date="1571559603472" expanded="true" signature="622:895" ph="..." />
-                <marker date="1571559603472" expanded="true" signature="934:939" ph="..." />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -173,9 +130,10 @@
         <option value="$PROJECT_DIR$/utils/misc.py" />
         <option value="$PROJECT_DIR$/bin/run_exp1.sh" />
         <option value="$PROJECT_DIR$/src/exp1.py" />
-        <option value="$PROJECT_DIR$/src/exp2.py" />
         <option value="$PROJECT_DIR$/bin/run_exp2.sh" />
         <option value="$PROJECT_DIR$/src/utils/misc.py" />
+        <option value="$PROJECT_DIR$/src/exp2.py" />
+        <option value="$PROJECT_DIR$/bin/run_exp3.sh" />
       </list>
     </option>
   </component>
@@ -209,11 +167,6 @@
               <item name="numerical-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="numerical-analysis" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="numerical-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="numerical-analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="exp_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="numerical-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -324,7 +277,7 @@
     <frame x="0" y="23" width="1280" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -338,7 +291,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -380,13 +333,6 @@
     <entry file="file://$PROJECT_DIR$/exp_3/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/run_exp1.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exp1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-427">
@@ -406,6 +352,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/exp2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1571559668370" expanded="true" signature="146:151" ph="..." />
+            <marker date="1571559668370" expanded="true" signature="607:2118" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/run_exp2.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -413,29 +371,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exp2.py">
+    <entry file="file://$PROJECT_DIR$/bin/run_exp1.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1571559292830" expanded="true" signature="146:151" ph="..." />
-            <marker date="1571559292830" expanded="true" signature="607:2117" ph="..." />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/misc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        <state relative-caret-position="769">
+          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
           <folding>
-            <marker date="1571559603472" expanded="true" signature="55:60" ph="..." />
-            <marker date="1571559603472" expanded="true" signature="367:368" ph="..." />
-            <marker date="1571559603472" expanded="true" signature="367:372" ph="..." />
-            <marker date="1571559603472" expanded="true" signature="622:895" ph="..." />
-            <marker date="1571559603472" expanded="true" signature="934:939" ph="..." />
+            <marker date="1571559625096" expanded="true" signature="55:60" ph="..." />
+            <marker date="1571559625096" expanded="true" signature="367:368" ph="..." />
+            <marker date="1571559625096" expanded="true" signature="367:372" ph="..." />
+            <marker date="1571559625096" expanded="true" signature="622:895" ph="..." />
+            <marker date="1571559625096" expanded="true" signature="934:939" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/run_exp3.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
