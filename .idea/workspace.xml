@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd6c5327-92aa-4dc9-861c-3b7c2af925ae" name="Default Changelist" comment="" />
+    <list default="true" id="dd6c5327-92aa-4dc9-861c-3b7c2af925ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="9" />
           <entry key="py" value="2944" />
           <entry key="sh" value="233" />
         </counts>
@@ -65,11 +68,13 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="233" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Python" value="2944" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="py" value="1" />
           <entry key="sh" value="2" />
         </counts>
@@ -77,6 +82,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
@@ -87,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/misc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
+            <state relative-caret-position="1110">
               <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
               <folding>
                 <marker date="1571559625096" expanded="true" signature="55:60" ph="..." />
@@ -100,11 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/run_exp3.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -134,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/utils/misc.py" />
         <option value="$PROJECT_DIR$/src/exp2.py" />
         <option value="$PROJECT_DIR$/bin/run_exp3.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -378,9 +394,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bin/run_exp3.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/misc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
+        <state relative-caret-position="1110">
           <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
           <folding>
             <marker date="1571559625096" expanded="true" signature="55:60" ph="..." />
@@ -392,10 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/run_exp3.sh">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
