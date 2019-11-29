@@ -1,5 +1,4 @@
 import numpy as np
-from math import fabs
 
 
 def gaussian_elimination(a):
@@ -58,9 +57,10 @@ def lu_factorization(a):
     return mat_l, mat_u
 
 
-# shape of y is (1,n), shape of a is (n,n), shape of x is (1,n)
 def backward_substitution(a, y):
-
+    """
+    shape of y is (1,n), shape of a is (n,n), shape of x is (1,n)
+    """
     n = len(y)
     x = np.zeros(n)
 
@@ -94,9 +94,16 @@ def forward_substitution(a, y):
     return x
 
 
-# shape of a is np.array(n, n), shape of b is np.array(n, 1), shape of xo is np.array(1, n)
-# tol is the tolerance, N is the maximum number of iterations, norm means which norm to use
 def jacobi(a, b, xo=None, tol=1e-6, N=100, norm='maximum'):
+    """
+    :param a: np.array(n, n)
+    :param b: np.array(n, 1)
+    :param xo: np.array(1, n)
+    :param tol: tolerance
+    :param N: maximum number of iterations
+    :param norm: enum{"euclidean", "maximum"}
+    :return: solution x, shape is (n,)
+    """
     k = 1
     n = a.shape[1]
     if xo is None:
