@@ -1,13 +1,14 @@
 import numpy as np
-from .matrix import gaussian_elimination, backward_substitution, gauss_seidel
+from .matrix import gauss_seidel
 
 
-def natural_cubic_spline(n, x, a):
+def cubic_spline(n, x, a, boundary='natural'):
     """
-    determine the parameters of a cubic spline function with natural boundary
-    :param n: number of intervals
-    :param x: The given data points. shape is (n+1,)
-    :param a: value of f(x). shape is (n+1, )
+    determine the parameters of a cubic spline function
+    :param n: number of intervals, equals points number - 1
+    :param x: The given data points. array_like, shape (n+1,)
+    :param a: value of f(x). array_like, shape (n+1, )
+    :param boundary: type {'natural', 'clamped', 'periodic'}
     :return: parameters a, b, c, d
     """
     h = np.zeros(n+1)
@@ -18,8 +19,18 @@ def natural_cubic_spline(n, x, a):
     print(f'value of h is {h}')
 
     A = np.zeros(shape=(n+1, n+1))
-    A[0][0] = 1
-    A[n][n] = 1
+    if boundary in ["natural"]:
+        A[0][0] = 1
+        A[n][n] = 1
+    elif boundary in ["clamped"]:
+        A[0][0] = 2 * h[0]
+        A[0][1] = h[0]
+        A[n][n-1] = h[n-1]
+        A[n][n] = 2 * h[n-1]
+    # elif boundary in ["periodic"]:
+        # the period of sin(x) is 2*pi, but the given interval is [0, pi].
+        # we need to change the conditions to y[0] == y[-1], y'[0] == -y'[-1]
+        # and y''[0] == y''[-1]
 
     for row in range(1, n):
         col_1 = row - 1
@@ -41,5 +52,6 @@ def natural_cubic_spline(n, x, a):
         d[i] = (c[i+1] - c[i])/3*h[i]
 
     return a, b, c, d
+
 
 

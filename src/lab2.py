@@ -28,7 +28,7 @@ def main():
         n = args.n
 
         root, iternum, error = bisection(f, a, b, tol, n)
-
+        print("使用二分法求解：")
         print('方程的根为%f，需要的迭代次数为%d，误差为%f' % (root, iternum, error))
 
     if args.mode == 2:
@@ -36,6 +36,7 @@ def main():
 
         seq_p0 = [pi/2, 5*pi, 10*pi]
 
+        print("使用牛顿法求解：")
         for index, p0 in enumerate(seq_p0):
             root, iternum, error = newton(f, p0, args.tol, args.n)
 
