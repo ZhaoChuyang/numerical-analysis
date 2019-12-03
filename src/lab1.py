@@ -1,6 +1,7 @@
 import sys
 import argparse
 
+import numpy as np
 import matplotlib.pyplot as plt
 
 
@@ -13,13 +14,13 @@ def get_args():
     return parser.parse_args()
 
 
-def calculate(mode, x0, n=10):
+def calculate(mode, x0, n=11):
     f = lambda x: 2 * x ** 2 + x - 15
     seq = [x0]
 
     if mode == 1:
         for i in range(n):
-            nextx =  15 - seq[i] ** 2
+            nextx = 15 - seq[i] ** 2
             seq.append(nextx)
     if mode == 2:
         for i in range(n):
@@ -33,7 +34,7 @@ def calculate(mode, x0, n=10):
     return seq
 
 
-def output(mode, seq, k = 10, n = 10):
+def output(mode, seq, k=10, n=11):
     answer = ''
 
     for i in [b for b in range(k) if k - b <= 10]:
@@ -41,19 +42,19 @@ def output(mode, seq, k = 10, n = 10):
 
     print(answer)
 
-    for i in range(n):
-        plt.plot(i, seq[i], 'bo')
+    x = np.array(seq)[:n]
+    errors = 2.5 - x
 
-    plt.xlabel('xi')
-    plt.ylabel('y')
-    plt.title('figure of mode %d' % mode)
-
+    fig, (axs1, axs2) = plt.subplots(2, sharex=True)
+    axs1.plot([i for i in range(n)], x, 'o')
+    axs2.plot([i for i in range(n)], errors, 'o')
+    axs1.set_ylabel(r'$x_n$')
+    axs2.set_ylabel(r'errors')
     plt.show()
 
 
 def main():
     args = get_args()
-
     seq = calculate(args.mode, args.x0, args.n)
     output(args.mode, seq, args.k, args.n)
 
