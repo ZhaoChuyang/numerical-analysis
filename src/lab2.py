@@ -29,7 +29,8 @@ def main():
 
         root, iternum, error = bisection(f, a, b, tol, n)
         print("使用二分法求解：")
-        print('方程的根为%f，需要的迭代次数为%d，误差为%f' % (root, iternum, error))
+        print('方程的根为%f，需要的迭代次数为%d，误差为%f'
+              % (root, iternum, error))
 
     if args.mode == 2:
         f = lambda x: 1/2 + 1/4*x**2 - x*sin(x) - 1/2*cos(2*x)
@@ -40,7 +41,8 @@ def main():
         for index, p0 in enumerate(seq_p0):
             root, iternum, error = newton(f, p0, args.tol, args.n)
 
-            print('当初始值为%f时，求得的根为%f，迭代次数为%d，误差为%f' % (p0, root, iternum, error))
+            print('当初始值为%f时，求得的根为%f，迭代次数为%d，误差为%f'
+                  % (p0, root, iternum, error))
 
     if args.mode == 3:
         f = lambda x: 5 * x - exp(x)
@@ -53,19 +55,23 @@ def main():
 
         # using bisection method
         root, iternum, error = bisection(f, a, b, tol, n)
-        print('使用二分法求解，根为%.4f，迭代次数为%d，误差为%f' % (root, iternum, error))
+        print('使用二分法求解，根为%.4f，迭代次数为%d，误差为%f'
+              % (root, iternum, error))
 
         # using newton's method
         root, iternum, error = newton(f, p0, tol, n)
-        print('使用牛顿法求解，根为%.4f，迭代次数为%d，误差为%f' % (root, iternum, error))
+        print('使用牛顿法求解，根为%.4f，迭代次数为%d，误差为%f'
+              % (root, iternum, error))
 
         # using secant method
         root, iternum, error = secant(f, p0, p1, tol, n)
-        print('使用割线法求解，根为%.4f，迭代次数为%d，误差为%f' % (root, iternum, error))
+        print('使用割线法求解，根为%.4f，迭代次数为%d，误差为%f'
+              % (root, iternum, error))
 
         # using false position method
         root, iternum, error = false_position(f, p0, p1, tol, n)
-        print('使用错位法求解，根为%.4f，迭代次数为%d，误差为%f' % (root, iternum, error))
+        print('使用错位法求解，根为%.4f，迭代次数为%d，误差为%f'
+              % (root, iternum, error))
 
 
 if __name__ == '__main__':
