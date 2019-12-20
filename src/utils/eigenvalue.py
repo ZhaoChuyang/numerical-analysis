@@ -82,6 +82,8 @@ def householder_qr(a, b):
 
     for i in range(n_col):
         temp = a[:, i]
+        for j in range(i):
+            temp[j] = 0
         alpha = np.sqrt(np.sum(temp**2))
         sign = 1
         if temp[i] > 0:
@@ -89,11 +91,11 @@ def householder_qr(a, b):
         temp_v = np.zeros(len(temp))
         temp_v[i] = sign * alpha
         v = temp - temp_v
-
         h = np.eye(n_row) - 2 * np.matmul(v.reshape(n_row, 1), v.reshape(1, n_row)) / np.matmul(v.T, v)
 
         a = np.matmul(h, a)
-
+        b = np.matmul(h, b)
+        print(a)
         h_list.append(h)
 
     return h_list
